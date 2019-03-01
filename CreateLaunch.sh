@@ -64,23 +64,31 @@ sips -Z 1334 -c 750 1334 launch.png --out Images.xcassets/LaunchImage.launchimag
 sips -Z 1136 -c 1136 640 launch.png --out Images.xcassets/LaunchImage.launchimage/iPhone-SE-Portrait.png
 sips -Z 1136 -c 640 1136 launch.png --out Images.xcassets/LaunchImage.launchimage/iPhone-SE-Landscape.png
 
+# 1x 320px x 480px
+sips -Z 480 -c 480 320 launch.png --out Images.xcassets/LaunchImage.launchimage/iPhone-5-@1x-Portrait.png
+sips -Z 480 -c 320 480 launch.png --out Images.xcassets/LaunchImage.launchimage/iPhone-5-@1x-Landscape.png
+
+# 2x 640px x 960px
+sips -Z 960 -c 960 640 launch.png --out Images.xcassets/LaunchImage.launchimage/iPhone-5-@2x-Portrait.png
+sips -Z 960 -c 640 960 launch.png --out Images.xcassets/LaunchImage.launchimage/iPhone-5-@2x-Landscape.png
+
+# retina 4 640px x 1136px
+sips -Z 1136 -c 1136 640 launch.png --out Images.xcassets/LaunchImage.launchimage/iPhone-retina-4-Portrait.png
+sips -Z 1136 -c 640 1136 launch.png --out Images.xcassets/LaunchImage.launchimage/iPhone-retina-4-Landscape.png
 
 
+# 1x	iOS 5,6	Portrait (Without Status Bar)	768 x 1004
+sips -Z 1004 -c 1004 768 launch.png --out Images.xcassets/LaunchImage.launchimage/iPad-1x-iOS-5-6-Portrait-Without-Status-Bar-768x1004-Portrait.png
+sips -Z 1004 -c 768 1004 launch.png --out Images.xcassets/LaunchImage.launchimage/iPad-1x-iOS-5-6-Portrait-Without-Status-Bar-768x1004-Landscape.png
 
-# Device	        Portrait size	        Landscape size
-# 12.9" iPad Pro	2048px  × 2732px	    2732px × 2048px
-# 11" iPad Pro	    1668px  × 2388px	    2388px × 1668px
-# 10.5" iPad Pro	1668px  × 2224px	    2224px × 1668px
-# 9.7" iPad	        1536px  × 2048px	    2048px × 1536px
-# 7.9" iPad mini 4	1536px  × 2048px	    2048px × 1536px
-# iPhone XS Max	    1242px  × 2688px	    2688px × 1242px
-# iPhone XS	        1125px  × 2436px	    2436px × 1125px
-# iPhone XR	        828px   × 1792px	    1792px × 828px
-# iPhone X	        1125px  × 2436px	    2436px × 1125px
-# iPhone 8 Plus	    1242px  × 2208px	    2208px × 1242px
-# iPhone 8	        750px   × 1334px	    1334px × 750px
-# iPhone 7 Plus	    1242px  × 2208px	    2208px × 1242px
-# iPhone 7	        750px   × 1334px	    1334px × 750px
-# iPhone 6s Plus	1242px  × 2208px	    2208px × 1242px
-# iPhone 6s	        750px   × 1334px	    1334px × 750px
-# iPhone SE	        640px   × 1136px	    1136px × 640px
+# 1x	iOS 5,6	Landscape (Without Status Bar)	1024 x 748
+sips -Z 1024 -c 1024 748 launch.png --out Images.xcassets/LaunchImage.launchimage/iPad-1x-iOS-5-6-Landscape-Without-Status-Bar-1024x748Portrait.png
+sips -Z 1024 -c 748 1024 launch.png --out Images.xcassets/LaunchImage.launchimage/iPad-1x-iOS-5-6-Landscape-Without-Status-Bar-1024x748Landscape.png
+
+# 2x	iOS 5,6	Portrait (Without Status Bar)	1536 x 2008
+sips -Z 2008 -c 2008 1536 launch.png --out Images.xcassets/LaunchImage.launchimage/iPad-2x-iOS-5-6-Portrait-Without-Status-Bar-1536x2008-Portrait.png
+sips -Z 2008 -c 1536 2008 launch.png --out Images.xcassets/LaunchImage.launchimage/iPad-2x-iOS-5-6-Portrait-Without-Status-Bar-1536x2008-Landscape.png
+
+# 2x	iOS 5,6	Landscape (Without Status Bar)	2048 x 1496
+sips -Z 2048 -c 2048 1496 launch.png --out Images.xcassets/LaunchImage.launchimage/iPad-2x-iOS-5-6-Landscape-Without-Status-Bar-2048x1496-Portrait.png
+sips -Z 2048 -c 1496 2048 launch.png --out Images.xcassets/LaunchImage.launchimage/iPad-2x-iOS-5-6-Landscape-Without-Status-Bar-2048x1496-Landscape.png
